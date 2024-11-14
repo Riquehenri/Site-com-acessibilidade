@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acessibilidade para Todos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="accessibility-controls">
+      <button id="contrasteBtn">Ativar Contraste Alto</button>
+      <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+      <button id="leituraBtn">Ativar Leitura de Texto</button>
+    </div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <nav>
+      <a href="index.html" class="leitura-texto">HOME</a>
+      <a href="sobre.html" class="leitura-texto">SOBRE</a>
+      <a href="recursos.html" class="leitura-texto">RECURSOS</a>
+      <a href="legislacao.html" class="leitura-texto">LEGISLAÇÃO/DIREITOS</a>
+      <a href="historias.html" class="leitura-texto">HISTÓRIAS</a>
+      <a href="blog.html" class="leitura-texto">BLOG</a>
+    </nav>
+    <main>
+      <section id="blog">
+        <h1 class="leitura-texto">
+          Blog - Dicas e Conhecimento sobre Acessibilidade
+        </h1>
+        <p class="leitura-texto">
+          Bem-vindo ao nosso blog! Aqui, você encontra artigos informativos,
+          guias práticos e atualizações importantes sobre o universo da
+          acessibilidade. Navegue por nossas categorias e descubra como tornar o
+          mundo mais inclusivo. Acreditamos que a informação é a chave para a
+          transformação e que todos têm o direito de acessar o conhecimento.
+        </p>
+        <h2 class="leitura-texto">Últimos Artigos</h2>
+        <article>
+          <h3 class="leitura-texto">Atualizações de Legislação</h3>
+          <p class="leitura-texto">
+            Mantemos você informado sobre as últimas mudanças nas leis de
+            acessibilidade. Em nosso blog, discutimos o impacto de novas
+            regulamentações e o que elas significam para pessoas e empresas.
+          </p>
+          <ul>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Nova Lei Brasileira de Inclusão: o que mudou?</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Direitos das Pessoas com Deficiência no Ambiente de Trabalho</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Guia para Empresas: Adaptando-se às Normas de Acessibilidade</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >A Importância da Acessibilidade nas Eleições</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Como a Legislação Internacional Influencia a Acessibilidade no
+                Brasil</a
+              >
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 class="leitura-texto">Dicas e Tutoriais Práticos</h3>
+          <p class="leitura-texto">
+            Aprenda a aplicar acessibilidade em seu cotidiano com nossos guias
+            práticos. Desde ajustes simples em casa até a criação de sites
+            acessíveis, nossos tutoriais são pensados para facilitar a inclusão.
+          </p>
+          <ul>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Como adaptar a sua casa para receber pessoas com deficiência</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Acessibilidade Digital: Melhores Práticas para
+                Desenvolvedores</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Dicas para tornar eventos mais acessíveis</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Ferramentas de Acessibilidade: Como Usar em Seu Dia a Dia</a
+              >
+            </li>
+            <li>
+              <a href="#" class="leitura-texto"
+                >Acessibilidade em Viagens: Planejando Roteiros Inclusivos</a
+              >
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3 class="leitura-texto">Tecnologia Assistiva e Ferramentas</h3>
+          <p class="leitura-texto">
+            Descubra novas tecnologias e ferramentas que estão transformando a
+            acessibilidade. Exploramos aplicativos, softwares e dispositivos que
+            ajudam a criar um ambiente mais inclusivo para todos.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p class="leitura-texto">
+        &copy; 2024 Acessibilidade para Todos - Todos os direitos reservados
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

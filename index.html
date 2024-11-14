@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Um site focado em acessibilidade e inclusão."/>
+    <title>Acessibilidade para Todos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="accessibility-controls" >
+        <button id="contrasteBtn">Ativar Contraste Alto</button>
+        <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+        <button id="leituraBtn">Ativar Leitura de Texto</button>
+    </div>    
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <nav >
+          <a href="index.html"class="leitura-texto">HOME</a>
+          <a href="sobre.html"class="leitura-texto">SOBRE</a>
+          <a href="recursos.html"class="leitura-texto">RECURSOS</a>
+          <a href="legislacao.html"class="leitura-texto">LEGISLAÇÃO/DIREITOS</a>
+          <a href="historias.html"class="leitura-texto">HISTÓRIAS</a>
+          <a href="blog.html"class="leitura-texto">BLOG</a>
+    </nav>
+    <header>
+        <img src="imagens/Teclado.jpg" alt="Imagem do teclado"width="100%" height="100%">
+    </header>
+    <div class="content">
+      <main id="main-content">
+          <header>
+              <h1 class="leitura-texto">Acessibilidade na Vida Cotidiana</h1>
+              <p class="leitura-texto"> Este site explora como tornar a vida cotidiana mais acessível, seja no meio tecnológico ou no mundo real. A acessibilidade não é apenas sobre atender a requisitos legais; é sobre garantir que todos tenham a oportunidade de participar plenamente da sociedade. Cada passo em direção à acessibilidade é um passo em direção a um mundo mais justo e igualitário.</p>
+          </header>
+          <section>
+              <h2 class="leitura-texto">Tecnologia</h2>
+              <p class="leitura-texto">A tecnologia pode tornar o mundo mais acessível para todos. Ferramentas como leitores de tela, aumento de contraste e legendas automáticas são alguns exemplos. O uso de aplicativos e dispositivos adaptativos pode ajudar pessoas com deficiências a interagir com o mundo digital de forma mais eficaz. Além disso, a inclusão de acessibilidade em sites e aplicativos é fundamental para garantir que todos tenham acesso à informação. A tecnologia deve ser uma ponte, não uma barreira.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Vida Cotidiana</h2>
+              <p class="leitura-texto">No cotidiano, pequenas mudanças podem fazer a diferença, como rampas de acesso, sinalizações em braille, e muito mais. A inclusão de elementos acessíveis em edifícios e espaços públicos é vital para criar um ambiente onde todos possam se mover livremente e participar de atividades sociais. Além disso, é importante que a comunidade se envolva na promoção de práticas inclusivas, como a sensibilização sobre a importância da acessibilidade. Cada pessoa pode fazer a diferença, seja através de pequenas ações ou grandes iniciativas.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Recursos e Ferramentas</h2>
+              <p class="leitura-texto">Descubra guias, aplicativos e outros recursos que podem ajudar na construção de ambientes mais acessíveis. Existem diversas ferramentas disponíveis, desde softwares que ajudam na leitura de textos até aplicativos que facilitam a navegação em espaços públicos. A educação sobre como utilizar essas ferramentas é essencial para maximizar seu impacto na vida das pessoas. Explore nosso diretório de recursos para encontrar o que melhor se adapta às suas necessidades.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Histórias de Sucesso</h2>
+              <p class="leitura-texto">Leia histórias inspiradoras de pessoas que superaram desafios através da acessibilidade. Essas narrativas mostram como a inclusão pode transformar vidas e como a determinação e a inovação podem levar a soluções criativas para problemas de acessibilidade. Cada história é um testemunho do poder da resiliência e da importância de um ambiente acessível para o desenvolvimento pessoal e social.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Legislação</h2>
+              <p class="leitura-texto">Conheça as leis que garantem os direitos de acessibilidade para todos. A legislação é um componente crucial na promoção da acessibilidade, pois estabelece padrões e diretrizes que devem ser seguidos por instituições e empresas. É importante que todos conheçam seus direitos e possam reivindicá-los quando necessário. A conscientização sobre a legislação de acessibilidade é fundamental para garantir que todos possam exercer seus direitos plenamente.</p>
+          </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+    <footer>
+      <p class="leitura-texto">&copy; 2024 Acessibilidade para Todos</p>
+    </footer>
+  </body>
+</html>
