@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acessibilidade para Todos</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+<body>
+  <div class="accessibility-controls">
+    <button id="contrasteBtn">Ativar Contraste Alto</button>
+    <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+    <button id="leituraBtn">Ativar Leitura de Texto</button>
+</div>    
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget("https://vlibras.gov.br/app");
+  </script>
+    <nav>
+      <a href="index.html"class="leitura-texto">HOME</a>
+      <a href="sobre.html"class="leitura-texto">SOBRE</a>
+      <a href="recursos.html"class="leitura-texto">RECURSOS</a>
+      <a href="legislacao.html"class="leitura-texto">LEGISLAÇÃO/DIREITOS</a>
+      <a href="historias.html"class="leitura-texto">HISTÓRIAS</a>
+      <a href="blog.html"class="leitura-texto">BLOG</a>
+    </nav>
+  <main>
+    <section id="introducao">
+      <h1 class="leitura-texto">O que é Acessibilidade?</h1>
+      <p class="leitura-texto">
+        A acessibilidade se refere à prática de tornar ambientes, produtos e serviços utilizáveis por todas as pessoas, independentemente de suas capacidades físicas ou mentais. Isso inclui a eliminação de barreiras que possam impedir a participação plena de pessoas com deficiência na sociedade.
+      </p>
+      <p class="leitura-texto">
+        A acessibilidade não se limita apenas a rampas e adaptações físicas, mas também envolve a acessibilidade digital, que garante que websites e aplicativos sejam utilizáveis por pessoas com diferentes tipos de deficiência.
+      </p>
+    </section>
+    <section id="legislation">
+      <h1 class="leitura-texto">Principais Leis de Acessibilidade no Brasil</h1>
+      <p class="leitura-texto">
+        A acessibilidade é um direito garantido por lei no Brasil. Abaixo você encontrará um resumo das principais legislações que visam promover a inclusão de pessoas com deficiência.
+      </p>
+      <h2 class="leitura-texto">Lei Brasileira de Inclusão (LBI) - Lei nº 13.146/2015</h2>
+      <p class="leitura-texto">
+        A <strong>Lei Brasileira de Inclusão da Pessoa com Deficiência</strong>, também conhecida como Estatuto da Pessoa com Deficiência, estabelece uma série de direitos para promover a inclusão e garantir o acesso de pessoas com deficiência a serviços, educação, trabalho e saúde.
+        <ul>
+          <li><strong class="leitura-texto">Educação Inclusiva:</strong> Garante o direito de estudar em instituições regulares com adaptações adequadas.</li>
+          <li><strong class="leitura-texto">Acessibilidade Digital:</strong> Estabelece a obrigatoriedade de sites e aplicativos públicos e privados de grande alcance serem acessíveis.</li>
+          <li><strong class="leitura-texto">Transporte Público:</strong> Define que os meios de transporte coletivo devem ser adaptados para garantir a acessibilidade.</li>
+        </ul>
+      </p>
+      <h2 class="leitura-texto">Lei de Cotas - Lei nº 8.213/1991</h2>
+      <p class="leitura-texto">
+        A <strong class="leitura-texto">Lei de Cotas</strong> estabelece que empresas com 100 ou mais empregados devem reservar de 2% a 5% de suas vagas para pessoas com deficiência. Essa medida visa promover a inclusão no mercado de trabalho e dar mais oportunidades para pessoas com deficiência se desenvolverem profissionalmente.
+      </p>
+      <h2 class="leitura-texto">Decreto de Acessibilidade - Decreto nº 5.296/2004</h2>
+      <p class="leitura-texto">
+        Esse decreto regulamenta a acessibilidade em espaços públicos e privados de uso coletivo, estabelecendo normas para garantir acessibilidade arquitetônica, em transportes, e nas comunicações. Entre as determinações:
+        <ul>
+          <li><strong class="leitura-texto">Acessibilidade Arquitetônica:</strong> Rampa de acesso, banheiros adaptados e sinalizações em braille.</li>
+          <li><strong class="leitura-texto">Comunicações:</strong> Disponibilidade de Libras e legendas em eventos públicos e transmissões de grande alcance.</li>
+        </ul>
+      </p>
+      <h2 class="leitura-texto">Direitos das Pessoas com Deficiência</h2>
+      <p class="leitura-texto">
+        As pessoas com deficiência têm direito a uma vida com igualdade de condições, incluindo o direito à educação, trabalho, saúde, lazer e mobilidade. É importante conhecer esses direitos para poder reivindicá-los e exigir adaptações e acessos onde necessário.
+      </p>
+      <ul>
+        <li><strong class="leitura-texto">Educação:</strong> Direito a estudar em escolas e universidades inclusivas, com adaptações necessárias.</li>
+        <li><strong class="leitura-texto">Saúde:</strong> Acesso integral ao sistema de saúde, com serviços e atendimentos adaptados.</li>
+        <li><strong class="leitura-texto">Mobilidade:</strong> Transporte público acessível e isenções em impostos para veículos adaptados.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p class="leitura-texto">&copy; 2024 Acessibilidade para Todos - Todos os direitos reservados</p>
+  </footer>
+  <script src="JS/script.js"></script>
+
+</body>
+</html>
